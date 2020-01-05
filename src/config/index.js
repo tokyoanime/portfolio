@@ -1,38 +1,26 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Lwin Ye | Software Engineer',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'I am a software engineer based in San Francisco Bay Area. I specialize in building exceptional, high-quality websites and applications.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Lwin Ye, Lwin, Ye, software engineer, front-end engineer, web developer, javascript, San Francisco, Bay Area, San Francisco Bay Area',
+  siteUrl: 'https://lwinye.com',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  // googleAnalyticsID: '',
+  // googleVerification: '',
+  name: 'Lwin ye',
+  location: 'San Francisco Bay Area',
+  email: 'lwin.ye.contact@gmail.com',
+  github: 'https://github.com/tokyoanime',
+  // twitterHandle: '',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/tokyoanime',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://www.linkedin.com/in/lwinye/',
     },
   ],
 
@@ -42,12 +30,12 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
+      name: 'Projects',
+      url: '/#projects',
     },
     {
-      name: 'Work',
-      url: '/#projects',
+      name: 'Experience',
+      url: '/#jobs',
     },
     {
       name: 'Contact',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Layout, Hero, About, Jobs, Featured, Projects, Contact } from '@components';
+import { Layout, Hero, About, Jobs, Featured, Contact } from '@components';
 import styled from 'styled-components';
 import { Main } from '@styles';
 
@@ -14,9 +14,8 @@ const IndexPage = ({ location, data }) => (
     <StyledMainContainer className="fillHeight">
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />
-      <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
-      <Projects data={data.projects.edges} />
+      <Jobs data={data.jobs.edges} />
       <Contact data={data.contact.edges} />
     </StyledMainContainer>
   </Layout>
@@ -94,25 +93,6 @@ export const pageQuery = graphql`
                 }
               }
             }
-            tech
-            github
-            external
-          }
-          html
-        }
-      }
-    }
-    projects: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/projects/" }
-        frontmatter: { showInProjects: { ne: false } }
-      }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
             tech
             github
             external
