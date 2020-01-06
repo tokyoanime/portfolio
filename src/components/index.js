@@ -1,7 +1,7 @@
 // Components
 import Head from './head';
 import Layout from './layout';
-import Loader from './loader';
+// import Loader from './loader';
 import Nav from './nav';
 import Menu from './menu';
 import Side from './side';
@@ -19,7 +19,6 @@ import Contact from './sections/contact';
 export {
   Head,
   Layout,
-  Loader,
   Nav,
   Menu,
   Side,
