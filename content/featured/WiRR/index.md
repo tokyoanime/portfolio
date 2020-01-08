@@ -1,6 +1,6 @@
 ---
 date: '1'
-title: 'WiRR (Wikipedia Reliability Rater)'
+title: 'Wikipedia Reliability Rater'
 cover: './wirr.JPG'
 github: 'https://github.com/michaeltorres1/WiRR'
 external: 'http://www.wikipediarr.com/'
