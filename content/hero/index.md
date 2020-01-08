@@ -5,4 +5,4 @@ subtitle: ''
 contactText: 'Contact Me'
 ---
 
-I am a software engineer based in San Francisco Bay Area. I specialize in building exceptional, high-quality websites and applications.
+I am a software engineer based in the San Francisco Bay Area. I specialize in building high-quality websites and applications.

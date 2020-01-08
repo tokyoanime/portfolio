@@ -14,4 +14,4 @@ tech:
 showInProjects: true
 ---
 
-Yeet is a full-stack web application similar to Yelp.com. Yeet allows user to search for ramen and boba milk tea places in San Francisco Bay Area.
+Yeet is a full-stack web application similar to Yelp.com. Yeet allows user to search for ramen and bubble milk tea places in the San Francisco Bay Area.
