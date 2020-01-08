@@ -62,8 +62,8 @@ const StyledPic = styled.div`
 `;
 const StyledAvatar = styled(Img)`
   position: relative;
-  mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1);
+  mix-blend-mode: none;
+  filter: none;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
 `;
@@ -72,7 +72,7 @@ const StyledAvatarLink = styled.a`
   width: 100%;
   position: relative;
   border-radius: ${theme.borderRadius};
-  background-color: ${colors.green};
+  filter: none;
   margin-left: -20px;
   &:hover,
   &:focus {
@@ -82,7 +82,7 @@ const StyledAvatarLink = styled.a`
       left: 15px;
     }
     ${StyledAvatar} {
-      filter: none;
+      filter: grayscale(100%) contrast(1) brightness(90%);
       mix-blend-mode: normal;
     }
   }
